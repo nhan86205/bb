@@ -1,0 +1,219 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   VN Express
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   .product-card {
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        .product-card .price {
+            display: none;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .product-card:hover .price {
+            display: block;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Header -->
+  <header class="bg-white py-4 shadow-md">
+   <div class="container mx-auto flex justify-between items-center">
+    <div class="flex items-center">
+     <img alt="VN Express Logo" class="h-12" height="50" src="https://storage.googleapis.com/a1aa/image/BcP6OC0wHfTuWSxfSmdN0Jsw2FrlcmNE1ebo9X7j12MOB0fPB.jpg" width="150"/>
+    </div>
+    <div>
+     <img alt="Sale Hot Banner" class="h-20" height="90" src="https://storage.googleapis.com/a1aa/image/oIbyU2dXZ6pvE560J9aJvxjln6gfmbMJf5LrlTfAsHtLB0fPB.jpg" width="728"/>
+    </div>
+   </div>
+  </header>
+  <!-- Navigation -->
+  <nav class="bg-red-600">
+   <div class="container mx-auto">
+    <ul class="flex space-x-4 text-white py-2">
+     <li>
+      <a class="hover:underline" href="#">
+       TRANG CHỦ
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       GIỚI THIỆU
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       TIN TỨC
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       SẢN PHẨM
+      </a>
+     </li>
+     <li>
+      <a class="hover:underline" href="#">
+       LIÊN HỆ
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Main Content -->
+  <main class="container mx-auto my-8">
+   <div class="bg-white p-4 shadow-md">
+    <img alt="Mountain Landscape" class="w-full h-64 object-cover" height="300" src="https://storage.googleapis.com/a1aa/image/tPAnxlSxQYocNJtveSzWdM0eZKc1VC1vz5vBMfSqWujYB0fPB.jpg" width="1200"/>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mt-4">
+     <div class="product-card p-2 border">
+      <img alt="Fashion item 1" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/tBKvDzcyzOIZE5Zew33nUG9MDjpMOno9xqAreYZoUgm7p6fnA.jpg" width="200"/>
+      <p class="price">
+       499.000 VND
+      </p>
+     </div>
+     <div class="product-card p-2 border">
+      <img alt="Fashion item 2" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/hsAP7o5X9p56JhtgcTyMOeK4ad6CuxLw9oeIuQDkSnN0p6fnA.jpg" width="200"/>
+      <p class="price">
+       459.000 VND
+      </p>
+     </div>
+     <div class="product-card p-2 border">
+      <img alt="Fashion item 3" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/egJAf4PfGQQhoI64HCFYAgaeMKEPbB8KmXPhMHsUYe2OPVffJA.jpg" width="200"/>
+      <p class="price">
+       399.000 VND
+      </p>
+     </div>
+     <div class="product-card p-2 border">
+      <img alt="Fashion item 4" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/oFyF5Y7ogG4TDZrePTt9bqOQC7GzfhSEt9GMLjqsyHJ3p6fnA.jpg" width="200"/>
+      <p class="price">
+       479.000 VND
+      </p>
+     </div>
+     <div class="product-card p-2 border">
+      <img alt="Fashion item 5" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/eesTvpiy5HjX00CMEEAsPzuKLhU7Cuzn0D8ib1hS71Dwp6fnA.jpg" width="200"/>
+      <p class="price">
+       299.000 VND
+      </p>
+     </div>
+     <div class="product-card p-2 border">
+      <img alt="Fashion item 6" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/h3B2mtMlZmYyHlesjU3PRBP7iad6LjQnmwfMybS6eSF7T1fPB.jpg" width="200"/>
+      <p class="price">
+       379.000 VND
+      </p>
+     </div>
+     <div class="product-card p-2 border">
+      <img alt="Fashion item 7" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/22sGwUojNF75D9sIxCXjf6EYN39ji7j1aQfXAgHUqIa1p6fnA.jpg" width="200"/>
+      <p class="price">
+       489.000 VND
+      </p>
+     </div>
+     <div class="product-card p-2 border">
+      <img alt="Fashion item 8" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/CqbdzKr2LTKMFBWJu4BLJ2CBzlXtWWvts4vTHXPNv5lcqefTA.jpg" width="200"/>
+      <p class="price">
+       499.000 VND
+      </p>
+     </div>
+    </div>
+   </div>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+   <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div>
+     <h3 class="font-bold mb-2">
+      VỀ CHÚNG TÔI
+     </h3>
+     <ul>
+      <li>
+       <a class="hover:underline" href="#">
+        Giới thiệu
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Quy chế hoạt động
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Chính sách bảo mật
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="font-bold mb-2">
+      DÀNH CHO NGƯỜI MUA
+     </h3>
+     <ul>
+      <li>
+       <a class="hover:underline" href="#">
+        Quy định cần biết
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Chính sách mua hàng
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Chính sách đổi trả
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="font-bold mb-2">
+      DÀNH CHO NGƯỜI BÁN
+     </h3>
+     <ul>
+      <li>
+       <a class="hover:underline" href="#">
+        Quy định cần biết
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Chính sách bán hàng
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="#">
+        Chính sách hỗ trợ
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="font-bold mb-2">
+      ĐĂNG KÝ NHẬN BẢN TIN TỪ CHÚNG TÔI
+     </h3>
+     <form>
+      <input class="w-full p-2 mb-2 text-gray-800" placeholder="Nhập email của bạn" type="email"/>
+      <button class="w-full bg-red-600 p-2 text-white" type="submit">
+       Đăng ký
+      </button>
+     </form>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
